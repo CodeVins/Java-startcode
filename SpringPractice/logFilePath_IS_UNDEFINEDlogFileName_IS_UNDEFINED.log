@@ -1,0 +1,63 @@
+2024/07/30 15:47:46 DEBUG [main] [AbstractApplicationContext.prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024/07/30 15:47:46 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\AspectExecClass.class]
+2024/07/30 15:47:46 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\LogAspect.class]
+2024/07/30 15:47:46 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\BeanScanClass.class]
+2024/07/30 15:47:46 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\DiClass.class]
+2024/07/30 15:47:46 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\Executeclass.class]
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'appConfig'
+2024/07/30 15:47:46 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.startLog()
+2024/07/30 15:47:46 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.endtLog()
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'aspectExecClass'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'logAspect'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'beanScanClass'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'diClass'
+2024/07/30 15:47:46 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'executeclass'
+2024/07/30 15:47:46 DEBUG [main] [AbstractApplicationContext.doClose] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d, started on Tue Jul 30 15:47:46 KST 2024
+2024/07/30 15:50:50 DEBUG [main] [AbstractApplicationContext.prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024/07/30 15:50:50 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\AspectExecClass.class]
+2024/07/30 15:50:50 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\LogAspect.class]
+2024/07/30 15:50:50 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\BeanScanClass.class]
+2024/07/30 15:50:50 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\DiClass.class]
+2024/07/30 15:50:50 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\Executeclass.class]
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'appConfig'
+2024/07/30 15:50:50 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.startLog()
+2024/07/30 15:50:50 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.endtLog()
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'aspectExecClass'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'logAspect'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'beanScanClass'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'diClass'
+2024/07/30 15:50:50 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'executeclass'
+2024/07/30 15:50:50 DEBUG [main] [AbstractApplicationContext.doClose] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d, started on Tue Jul 30 15:50:50 KST 2024
+2024/07/30 17:42:02 DEBUG [main] [AbstractApplicationContext.prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024/07/30 17:42:02 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\AspectExecClass.class]
+2024/07/30 17:42:02 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\aspect\LogAspect.class]
+2024/07/30 17:42:02 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\BeanScanClass.class]
+2024/07/30 17:42:02 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\DiClass.class]
+2024/07/30 17:42:02 DEBUG [main] [ClassPathScanningCandidateComponentProvider.scanCandidateComponents] - Identified candidate component class: file [C:\practice\workspace\SpringPractice\target\classes\com\example\Executeclass.class]
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024/07/30 17:42:02 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'appConfig'
+2024/07/30 17:42:03 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.startLog()
+2024/07/30 17:42:03 DEBUG [main] [ReflectiveAspectJAdvisorFactory.getAdvice] - Found AspectJ method: public void com.example.aspect.LogAspect.endtLog()
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'aspectExecClass'
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'logAspect'
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'beanScanClass'
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'diClass'
+2024/07/30 17:42:03 DEBUG [main] [DefaultSingletonBeanRegistry.getSingleton] - Creating shared instance of singleton bean 'executeclass'
+2024/07/30 17:42:03 DEBUG [main] [AbstractApplicationContext.doClose] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b2a47d, started on Tue Jul 30 17:42:02 KST 2024

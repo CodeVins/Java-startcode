@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<link th:href="@{/css/login.css}" rel="styleSheet">
+	<script th:src="@{/js/login.js}"></script>
+	<title>로그인 화면</title>
+</head>
+
+<body>
+	<div class="login-container">
+		<h2>Login</h2>
+		<form th:action="@{login}" th:object="${loginModel}" id="loginForm" method="post">
+			<p th:if="${errorMessage != null}" th:text="${errorMessage}" class="error-message"></p>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" id="email" th:field="*{email}">
+				<p class="error-message" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label>
+				<input type="password" id="password" th:field="*{password}">
+				<p class="error-message" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+			</div>
+			<input type="submit" id="loginBtn" class="login-button" value="Login"></input>
+			<a class="signup-button" th:href="@{/register}">Sign up</a>
+		</form>
+	</div>
+</body>
+
+</html>
